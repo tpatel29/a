@@ -1,0 +1,129 @@
+.fa-1x {
+    font-size: 1.5rem;
+}
+.navbar-toggler.toggler-example {
+    cursor: pointer;
+}
+.dark-blue-text {
+    color: #0A38F5;
+}
+.dark-pink-text {
+    color: #AC003A;
+}
+.dark-amber-text {
+    color: #ff6f00;
+}
+.dark-teal-text {
+    color: #004d40;
+}
+*{
+    margin:0;
+    padding:0;
+}
+#login{
+    margin: 0 1em;
+}
+.borderOutline{
+    border: black 2px solid;
+}
+.logo{
+    margin: 0 2em;
+}
+.tabs{
+    margin: 0 1em;
+}
+aside{
+    box-sizing: border-box;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.backgroundPic{
+    background-image: url('../images/wp.jpeg');
+}
+#jumbo{
+    color: indianred;
+    text-align: center;
+}
+#jumbo h1{
+    background-color: #2196F3;
+}
+#jumbo p{
+    background-color: #2196F3;
+}
+body{
+
+}
+.form1{
+    padding: 20px;
+    margin:20px;
+    background-color: gray;
+}
+.borderTopBot{
+    border-bottom: black 2px solid;
+}
+#slick{
+    display:none;
+    white-space: nowrap;
+    overflow: hidden;
+    position:relative;
+    z-index:1;
+}
+#regNav{
+    white-space: nowrap;
+    overflow: hidden;
+    position:relative;
+    z-index:1;
+}
+.cards123 {
+    display: flex;
+    float: left;
+    margin-top: 2%;
+    justify-content: space-around;
+
+}
+.spacing{
+    width: 17%;
+
+}
+.cardcolor{
+
+}
+button{
+    margin: 4px;
+}
+.finalset{
+    margin-bottom: 2%;
+}
+
+@media only screen and (max-width: 1017px){
+    #slick{
+        display: flex;
+        background-color: #313a40;
+    }
+    #regNav{
+        display: none;
+    }
+}
+@media only screen and (max-width: 1017px){
+    .space{
+
+    }
+}
+
+
